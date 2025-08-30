@@ -1,0 +1,6 @@
+REMARK  Demo protein PDB placeholder
+ATOM      1  N   ALA A   1       8.316   7.517   6.411  1.00 20.00           N
+ATOM      2  CA  ALA A   1       7.257   6.528   6.016  1.00 20.00           C
+ATOM      3  C   ALA A   1       7.655   5.067   6.308  1.00 20.00           C
+TER
+END

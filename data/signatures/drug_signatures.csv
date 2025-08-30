@@ -1,0 +1,5 @@
+drug,gene,logFC
+Aspirin,PTGS2,-1.2
+Aspirin,IL6,-0.3
+Metformin,STAT3,-0.4
+Metformin,PRKAA1,0.9

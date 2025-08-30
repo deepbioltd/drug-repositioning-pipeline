@@ -1,0 +1,8 @@
+name: general_env
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.11
+  - pandas=2.2.2
+  - numpy=1.26.4
+  - networkx=3.2.1
+  - scikit-learn=1.4.2

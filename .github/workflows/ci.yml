@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  stub-run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+      - name: Install Nextflow
+        run: |
+          curl -s https://get.nextflow.io | bash
+          echo "$PWD" >> $GITHUB_PATH
+      - name: Smoke test (stub-run)
+        run: |
+          ./nextflow run workflows/main.nf -stub-run -profile standard
+          test -f report/report.html
