@@ -69,6 +69,3 @@ drug-repositioning-pipeline/
 ├─ docs/mapping.md           # brochure-to-module mapping
 └─ .github/workflows/ci.yml  # GitHub Actions_stub smoke test
 ```
-
-## License
-MIT
